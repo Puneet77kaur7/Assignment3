@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {
+    background-image: url("../image/backgroundimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+  
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Chewy', cursive;
+    font-size: 36px;
+    color: red;
+    margin: 20px 0;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid red;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    padding: 1px;
+    margin-top: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    width: 300px;
+    height: 100px;
+}
+
+.contact {
+    width: 300px;
+    height: 400px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 250px;
+    height: 25px;
+    border: 2px solid red;
+    padding: 1px;
+}
+
+textarea {
+    height: 50px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-family: 'Chewy', cursive;
+    font-size: 24px;
+    color: white;
+    background: red;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+}
